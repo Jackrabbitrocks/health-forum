@@ -749,7 +749,8 @@ a.button {
 
 .header-img{
     margin-bottom: 20px;
-    text-align: center;
+    height: 315px;
+    position: relative;
 }
 
 .header-img img{
