@@ -1,5 +1,3 @@
-asfasdfasfashaooaoaoaogld
-
 @charset "utf-8";
 /* CSS Document */
 /*
@@ -751,14 +749,12 @@ a.button {
 
 .header-img{
     margin-bottom: 20px;
-    text-align: center;
+    height: 310px;
+    position: relative;
 }
 
 .header-img img{
     width: 100%;
-    height: 310px;
-    margin-bottom: 20px;
-    position: relative;
 }
 
 .callout h2.featured-webinars__title {
