@@ -870,6 +870,18 @@ a {
     margin-bottom: 10px;
 }
 
+/*CAROSEL*/
+
+.mw-carosel div{
+    position:absolute;
+    width:100%;
+    display:none;
+}
+
+.mw-carosel .start{
+  display: inline-block;
+}
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
 /* Place your styles for phones and small tablets here */
