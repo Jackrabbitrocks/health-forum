@@ -23,8 +23,8 @@ var MostWired = (function() {
         slideCounter = 0;
       }
       $('.display').text(slideCounter);
-      $slides.fadeOut();
-      $slides.eq(slideCounter).fadeIn();
+      $slides.fadeOut(600);
+      $slides.eq(slideCounter).fadeIn(600);
       slideCounter++;
     }
 
