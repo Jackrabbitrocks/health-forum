@@ -18,6 +18,9 @@
  
  /* Fix for mobile interstitial ads size */
 .leaderboard-ad div {max-width:100%}
+
+
+/*PLEASE NOTE: THIS FILE IS BEING TRACKED HERE https://github.com/Jackrabbitrocks/health-forum.git*/
  
  
  /* Homepage Titles */
@@ -887,6 +890,24 @@ a {
 .editorial-content__image{
     float: right;
 }
+
+.mw-subscribe--button {
+    padding: 10px 30px;
+    background-color: #EF4D03;
+    border-radius: 10px;
+    display: inline-block;
+    color: #fafafa;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.editorial-content__details:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
 /* Place your styles for phones and small tablets here */
