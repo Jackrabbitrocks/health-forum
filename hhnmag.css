@@ -1,5 +1,3 @@
-asfasdfasfashaooaoaoaogld
-
 @charset "utf-8";
 /* CSS Document */
 /*
@@ -18,8 +16,8 @@ asfasdfasfashaooaoaoaogld
  */
  
  
- /* Fix for mobile interstitial ads size 
-.leaderboard-ad div {max-width:100%}*/
+ /* Fix for mobile interstitial ads size */
+.leaderboard-ad div {max-width:100%}
  
  
  /* Homepage Titles */
@@ -751,7 +749,8 @@ a.button {
 
 .header-img{
     margin-bottom: 20px;
-    text-align: center;
+    height: 310px;
+    position: relative;
 }
 
 .header-img img{
@@ -884,6 +883,10 @@ a {
   display: inline-block;
 }
 
+/*BAND AID THE RIGHT RAIL*/
+.editorial-content__image{
+    float: right;
+}
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
 /* Place your styles for phones and small tablets here */
