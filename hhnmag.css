@@ -907,6 +907,16 @@ a {
     clear: both;
 }
 
+.editorial-content__body a {
+    color: #0D589B;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-bottom: grey dashed 1px;
+    padding-bottom: 3px;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
 /* Place your styles for phones and small tablets here */
     .button-divider a.button{
