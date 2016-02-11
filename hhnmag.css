@@ -1263,6 +1263,9 @@ p {
 .offers-count-2 > .LA-offer-module.selected .LA-offer-image {
   width: 75%;
 }
+.LA-offer-module:hover{
+    background-color: gainsboro;
+}
 .LA-offer-module {
   width: 32%;
   background: #ffffff;
@@ -1273,6 +1276,11 @@ p {
   min-height: 105px;
   margin-top: 20px;
   position: relative;
+  border: gainsboro thin solid;
+   -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .LA-offer-module + .LA-offer-module + .LA-offer-module {
   margin-right: 0;
@@ -1300,11 +1308,19 @@ p {
   background-size: 90%;
   display: none;
 }
+.LA-offer-module:hover .LA-offer-title{
+    background-color: #EFB600;color: #00519A;
+}
+
 .LA-offer-title {
   background: #dcdbdb;
   color: #666666;
   min-height: 60px;
   padding: 10px;
+   -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .selected .LA-offer-title {
   background: #4590bc;
@@ -1328,6 +1344,10 @@ p {
   margin-bottom: 15px;
   color: #666666;
 }
+.LA-offer-module:hover .LA-offer-content a.btn{
+    background-color: #555;
+    color: #eee;
+}
 .LA-offer-content a.btn {
   display: block;
   border-radius: 3px;
@@ -1339,6 +1359,10 @@ p {
   color: #cccccc;
   cursor: pointer;
   position: relative;
+   -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .LA-offer-content a.btn{
     margin-top: 15px;
@@ -1346,7 +1370,7 @@ p {
 .LA-offer-content p + a.btn{
     margin-top: 0;
 }
-.LA-offer-content a.btn:hover {
+.LA-offer-content:hover a.btn:hover {
   background: #4590bc;
   color: #ffffff;
   border: 1px solid #4590bc;
