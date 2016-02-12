@@ -37,3 +37,10 @@ var MostWired = (function() {
 })();
 
 MostWired.mwCarosel();
+
+if ($(".LA-offer-module").length > 0){
+  var $offerModule = $(".LA-offer-module");
+  $offerModule.on('click', function(e){
+    console.warn(e);
+  })
+};

@@ -1346,7 +1346,7 @@ p {
   margin-bottom: 15px;
   color: #666666;
 }
-.LA-offer-module:hover .LA-offer-content a.btn{
+.LA-offer-module:hover .LA-offer-content a.btn, .LA-offer-module.active .LA-offer-content a.btn{
     background-color: #555;
     color: #eee;
 }
