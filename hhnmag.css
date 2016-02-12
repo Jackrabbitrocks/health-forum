@@ -1309,7 +1309,7 @@ p {
   background-size: 90%;
   display: none;
 }
-.LA-offer-module:hover .LA-offer-title{
+.LA-offer-module:hover .LA-offer-title, .LA-offer-module.active .LA-offer-title {
     background-color: #EFB600;color: #00519A;
 }
 
