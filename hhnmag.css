@@ -1197,6 +1197,7 @@ p {
   text-align: center;
   margin: 20px auto 25px;
 }
+
 .LA-header .belizio {
   color: #131313;
 }
@@ -1263,7 +1264,7 @@ p {
 .offers-count-2 > .LA-offer-module.selected .LA-offer-image {
   width: 75%;
 }
-.LA-offer-module:hover{
+.LA-offer-module:hover, .LA-offer-module.active{
     background-color: gainsboro;
 }
 .LA-offer-module {
@@ -2243,6 +2244,12 @@ ul.LA-cc-holder li.discover {
   padding-top: 5px;
 }
 @media (max-width: 640px) {
+     .LA-other-magazines :after{
+        display: none;
+    }
+    .LA-header {
+        margin-bottom: 20px;
+    }
   .LA-offer-image {
     display: none;
   }
@@ -2517,7 +2524,6 @@ ul.LA-cc-holder li.discover {
   }
   .LA-header {
     background-size: 150%;
-    margin-bottom: 0;
   }
   .LA-input-small {
     width: 70px;
