@@ -894,9 +894,7 @@ a {
 .RR-social--rule {
     margin: 20px 0;
 }
-.social-media-rightrail .editorial-content__body a:nth-child(2){
-    border-bottom: none;
-}
+
 .editorial-content__details:after {
     content: "";
     display: table;
@@ -909,7 +907,6 @@ a {
     font-size: 1.2rem;
     margin-bottom: 5px;
     display: inline-block;
-    border-bottom: #EFB603 dashed 1px;
     padding-bottom: 3px;
 }
 
