@@ -40,7 +40,11 @@ MostWired.mwCarosel();
 
 if ($(".LA-offer-module").length > 0){
   var $offerModule = $(".LA-offer-module");
-  $offerModule.on('click', function(e){
-    console.warn(e);
-  })
+  $offerModule.on('mouseover', function(e){
+    $offerModule.removeClass('active');
+    $(this).addClass('active');
+  });
+  $offerModule.on('click', function(){
+    window.open("http://eforms.kmpsgroup.com/jointforms/Forms/Subscription.aspx?pubcode=HHN&promoCode=15HHNWEB")
+  });
 };

@@ -1264,6 +1264,9 @@ p {
 .offers-count-2 > .LA-offer-module.selected .LA-offer-image {
   width: 75%;
 }
+.LA-offer-module.active {
+    cursor: pointer;
+}
 .LA-offer-module:hover, .LA-offer-module.active{
     background-color: gainsboro;
 }
