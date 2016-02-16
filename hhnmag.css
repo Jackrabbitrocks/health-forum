@@ -888,9 +888,15 @@ a {
 /*BAND AID THE RIGHT RAIL*/
 .editorial-content__image{
     float: right;
+    width: 35%;
 }
 
-
+.RR-social--rule {
+    margin: 20px 0;
+}
+.social-media-rightrail .editorial-content__body a:nth-child(2){
+    border-bottom: none;
+}
 .editorial-content__details:after {
     content: "";
     display: table;
