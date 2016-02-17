@@ -947,6 +947,15 @@ a {
 /****** END MOST WIRED SYTLES ******/
 
 // START EVENT STYLES
+#moderator::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#sponsor p {
+    float: left;
+}
 @media (min-width:1024px){   
     #moderator{
         float: left;
@@ -954,9 +963,16 @@ a {
         padding-left: 20px;
         border-right: lightgrey solid thin;
     }
+    #moderator:after{
+        clear: none;
+    }
     #sponsor{
+        text-align: right;
         float: right;
         width: 40%;
+    }
+    #sponsor p {
+        float: none;
     }
 }
 
