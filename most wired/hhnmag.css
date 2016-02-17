@@ -909,11 +909,11 @@ a {
 /****** END MOST WIRED SYTLES ******/
 
 @media (min-width:1024px){   
-    #moderator{
+    #event-moderator{
         float: left;
         width: 50%;
     }
-    #sponsor{
+    #event-sponsor{
         float: right;
         width: 50%;
     }
