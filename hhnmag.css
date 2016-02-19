@@ -931,6 +931,14 @@ section.editorial-content.home-cta-1 + hr, section.editorial-content.home-cta-1 
     font-weight: bold;
 }
 
+section.publication-subscribe {
+    display: none;
+}
+
+section.publication-subscribe + hr {
+    display: none;
+}
+
 // END RIGHT RAIL UPDATES
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
@@ -991,4 +999,46 @@ section.editorial-content.home-cta-1 + hr, section.editorial-content.home-cta-1 
 
 #footer-column-3 a {
     color: white;
+}
+
+/* START HIMSS STYLES  */
+.himss {
+    width: 100%;
+}
+
+.himss .himss-header{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.himss div {
+    vertical-align: top;
+    text-align: center;
+}
+
+.himss-instagram--box {
+    background-color: #EE8B00;
+    border: #EEB500 5px solid;
+}
+
+.himms-news--box {
+    background-color: #0601A6;
+    color: #fff;
+    border: #00529A 5px solid;
+}
+
+.himss-subscribe--box {
+    background-color: #00529A;
+    color: #fff;
+    border: #0601A6 5px solid;
+}
+
+.himss-cil--box {
+    background-color: #EEB500;
+    border: #EE8B00 5px solid;
+}
+
+.himss div:nth-child(n+3) {
+    margin-top: 10px;
 }
