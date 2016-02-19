@@ -899,6 +899,10 @@ a {
     font-weight: bold;
 }
 
+section.editorial-content.home-cta-1 + hr, section.editorial-content.home-cta-1 + hr + hr {
+    display: none;
+}
+
 .editorial-content__details:after {
     content: "";
     display: table;
@@ -926,6 +930,8 @@ a.right-rail--subscribe-button.external {
     color: #fafafa;
     font-weight: bold;
 }
+
+// END RIGHT RAIL UPDATES
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 767px) {
 /* Place your styles for phones and small tablets here */
