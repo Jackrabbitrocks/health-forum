@@ -1476,7 +1476,7 @@ ul.LA-cc-holder li.discover {
     display: inline-block;
   }
   .LA-offer-content a.btn {
-    display: inline-block;
+    display: none;
     float: right;
   }
   .selected .LA-offer-title {
