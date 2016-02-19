@@ -930,6 +930,7 @@ section.editorial-content.home-cta-1 + hr, section.editorial-content.home-cta-1 
     color: #fafafa;
     font-weight: bold;
 }
+// this is just because I don'tknow how to turn off a right rail element
 
 section.publication-subscribe {
     display: none;
