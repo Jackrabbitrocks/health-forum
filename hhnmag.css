@@ -922,7 +922,7 @@ section.editorial-content.home-cta-1 + hr, section.editorial-content.home-cta-1 
     border-bottom: 0;
 }
 
-a.right-rail--subscribe-button.external {
+.social-media-rightrail a.right-rail--subscribe-button {
     padding: 10px 30px;
     background-color: #EF4D03;
     border-radius: 10px;
