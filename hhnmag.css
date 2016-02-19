@@ -994,6 +994,10 @@ a.right-rail--subscribe-button.external {
 }
 
 // =============== BEGIN SUBSCRIPTION FULL PAGE
+.blank-page{
+    background-color: #fff;
+    padding: 20px;
+}
 // .not-alert {
 //   position: inherit!important;
 //   width: 100%!important;
