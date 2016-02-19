@@ -1031,6 +1031,15 @@ section.publication-subscribe + hr {
     margin-right: 10px;
 }
 
+.himss a.himss-instagram--box li{
+    list-style: none;
+}
+
+.himss a.himss-instagram--box ul{
+    padding: 0;
+    margin: 0;
+}
+
 .himss a.himss-instagram--box {
     background-color: #EE8B00;
     border: #EEB500 5px solid;
