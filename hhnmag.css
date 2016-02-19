@@ -1013,33 +1013,46 @@ section.publication-subscribe + hr {
     margin-bottom: 15px;
 }
 
-.himss div {
+.himss a {
     vertical-align: top;
     text-align: center;
+    display: block;
 }
 
-.himss-instagram--box {
+.himss a div{
+    color: #fff;
+}
+
+.himss a.himss-instagram--box {
     background-color: #EE8B00;
     border: #EEB500 5px solid;
+    border-bottom: #EEB500 5px solid;
 }
 
-.himms-news--box {
+.himss a.himss-instagram--box{
+    color: #fff;
+}
+
+.himss a.himms-mw--box {
     background-color: #0601A6;
     color: #fff;
     border: #00529A 5px solid;
+    border-bottom: #00529A 5px solid;
 }
 
-.himss-subscribe--box {
+.himss a.himss-subscribe--box {
     background-color: #00529A;
     color: #fff;
     border: #0601A6 5px solid;
+    border-bottom: #0601A6 5px solid;
 }
 
-.himss-cil--box {
+.himss a.himss-cil--box {
     background-color: #EEB500;
     border: #EE8B00 5px solid;
+    border-bottom: #EE8B00 5px solid;
 }
 
-.himss div:nth-child(n+3) {
+.himss a:nth-child(n+3) {
     margin-top: 10px;
 }
