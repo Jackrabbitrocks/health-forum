@@ -1021,6 +1021,14 @@ section.publication-subscribe + hr {
 
 .himss a div{
     color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.himss a img{
+    max-width: 60px;
+    float: left;
+    margin-right: 10px;
 }
 
 .himss a.himss-instagram--box {
@@ -1029,8 +1037,8 @@ section.publication-subscribe + hr {
     border-bottom: #EEB500 5px solid;
 }
 
-.himss a.himss-instagram--box{
-    color: #fff;
+.himss a.himss-instagram--box div{
+    color: #000;
 }
 
 .himss a.himms-mw--box {
