@@ -960,6 +960,8 @@ a.right-rail--subscribe-button.external {
 
 /****** END MOST WIRED SYTLES ******/
 
+// Event styles
+
 @media (min-width:1024px){   
     #moderator{
         float: left;
@@ -971,112 +973,122 @@ a.right-rail--subscribe-button.external {
     }
 }
 
+// FOOTER SYTLES
+
+#footer-column-2 .level2 .last a {
+    color: white;
+}
+
+#footer-column-3 a {
+    color: white;
+}
+
 // =============== BEGIN SUBSCRIPTION FULL PAGE
-.not-alert {
-  position: inherit!important;
-  width: 100%!important;
-  max-width: inherit!important;
-}
-.not-alert::after {
-  display: none;
-}
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  font-size: 14px;
-  height: 100%;
-  background: #fff;
-}
-a {
-  color: #4591b8;
-  text-decoration: none;
-}
-h1,
-h2,
-h3,
-h4,
-h5 h6 {
-  margin: 0;
-}
-h2 {
-  font-size: 32px;
-  font-weight: normal;
-  margin: 30px 0 20px;
-}
-h2 + h4 {
-  font-size: 15px;
-  color: #666666;
-  font-weight: normal;
-  margin-bottom: 30px;
-}
-p {
-  margin-top: 0;
-}
-.strong {
-  font-weight: 700;
-}
-.hidden {
-  display: none;
-}
-.relative {
-  position: relative;
-}
-.alert {
-  position: absolute;
-  padding: 12px;
-  background: #c4040e;
-  max-width: 420px;
-  z-index: 9;
-  bottom: 63px;
-  min-height: 40px;
-  color: #ffffff;
-  border-radius: 0;
-}
-.alert::after {
-  content: "";
-  background: url('../../../../../images/LA-SP/error-arrow.png');
-  background-size: 16px;
-  position: absolute;
-  width: 16px;
-  height: 8px;
-  bottom: -8px;
-  left: 35px;
-}
-.alert-ccv::after {
-  right: 70px;
-  left: inherit;
-}
-.alert-field {
-  border: 2px solid #c4040e !important;
-}
-.payment-errors {
-  background: #c4040e;
-  padding: 10px 20px 0;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-.payment-errors p {
-  /*background: url('@{imagesSP}/icon-error.png') no-repeat 0 bottom;*/
-  background-size: 16px;
-  padding-left: 0;
-}
-.payment-errors ul {
-  margin: -5px 0 0;
-  padding: 0;
-  list-style: none;
-}
-.payment-errors li {
-  padding-bottom: 10px;
-  margin: 0;
-}
-.completed {
-  cursor: pointer !important;
-}
-.optical {
-  height: 7px;
-}
+// .not-alert {
+//   position: inherit!important;
+//   width: 100%!important;
+//   max-width: inherit!important;
+// }
+// .not-alert::after {
+//   display: none;
+// }
+// * {
+//   box-sizing: border-box;
+// }
+// body {
+//   margin: 0;
+//   font-size: 14px;
+//   height: 100%;
+//   background: #fff;
+// }
+// a {
+//   color: #4591b8;
+//   text-decoration: none;
+// }
+// h1,
+// h2,
+// h3,
+// h4,
+// h5 h6 {
+//   margin: 0;
+// }
+// h2 {
+//   font-size: 32px;
+//   font-weight: normal;
+//   margin: 30px 0 20px;
+// }
+// h2 + h4 {
+//   font-size: 15px;
+//   color: #666666;
+//   font-weight: normal;
+//   margin-bottom: 30px;
+// }
+// p {
+//   margin-top: 0;
+// }
+// .strong {
+//   font-weight: 700;
+// }
+// .hidden {
+//   display: none;
+// }
+// .relative {
+//   position: relative;
+// }
+// .alert {
+//   position: absolute;
+//   padding: 12px;
+//   background: #c4040e;
+//   max-width: 420px;
+//   z-index: 9;
+//   bottom: 63px;
+//   min-height: 40px;
+//   color: #ffffff;
+//   border-radius: 0;
+// }
+// .alert::after {
+//   content: "";
+//   background: url('../../../../../images/LA-SP/error-arrow.png');
+//   background-size: 16px;
+//   position: absolute;
+//   width: 16px;
+//   height: 8px;
+//   bottom: -8px;
+//   left: 35px;
+// }
+// .alert-ccv::after {
+//   right: 70px;
+//   left: inherit;
+// }
+// .alert-field {
+//   border: 2px solid #c4040e !important;
+// }
+// .payment-errors {
+//   background: #c4040e;
+//   padding: 10px 20px 0;
+//   color: #ffffff;
+//   margin-bottom: 20px;
+// }
+// .payment-errors p {
+//   /*background: url('@{imagesSP}/icon-error.png') no-repeat 0 bottom;*/
+//   background-size: 16px;
+//   padding-left: 0;
+// }
+// .payment-errors ul {
+//   margin: -5px 0 0;
+//   padding: 0;
+//   list-style: none;
+// }
+// .payment-errors li {
+//   padding-bottom: 10px;
+//   margin: 0;
+// }
+// .completed {
+//   cursor: pointer !important;
+// }
+// .optical {
+//   height: 7px;
+// }
 .custom-checkbox {
   position: relative;
   display: inline-block;
