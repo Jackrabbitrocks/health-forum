@@ -1031,6 +1031,7 @@ section.publication-subscribe + hr {
     .himss a {
         vertical-align: top;
         width: 98%;
+        margin-top: 10px;
     }
     .himss a img {
         margin-right: 20px
@@ -1067,4 +1068,53 @@ section.publication-subscribe + hr {
     .himss a > div {
         padding-bottom: 60px;
     }
+}
+/* instagram page */
+.insta h3{
+    font-size: 1.5rem;
+    background-color: #00529B;
+    padding: 10px;
+    color: #fff;
+-webkit-border-radius: 10px 0 0 0;
+border-radius: 10px 0 0 0;
+margin-bottom: 15px
+}
+
+.insta img:first-child{
+    margin-bottom: 20px;
+}
+.insta .profile img{
+    float: left;
+    border-radius: 15px;
+    margin-right: 15px
+}
+.insta .insta-row:after{
+    content: "";
+    display:table;
+    clear: both;
+}
+.insta-row{
+    margin: 20px 0
+}
+.insta .content{
+    padding: 0 30px;
+}
+.insta .blue {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #00529B;
+}
+.insta .lt-blue {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00A1E1;
+}
+.insta .twitter{
+    float: right;
+}
+.insta .instagram{
+    float: left;
+}
+.insta .conversation{
+    text-align: center;
 }
