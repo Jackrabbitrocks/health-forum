@@ -1086,3 +1086,29 @@ section.publication-subscribe + hr {
 .himss .himss-CTA{
     display: none;
 }
+@media (min-width:667px){
+    .himss a {
+        vertical-align: top;
+        text-align: center;
+        display: table-cell;
+        width: 50%;
+    }
+
+    .himss a:nth-child(-n+3){
+        margin-top: 0;   
+    }
+/*     .row{
+        display:table-row;
+        padding:10px;
+
+    } */
+    .himss .himss-CTA{
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    border: black 2px solid;
+    padding: 5px 25px;
+    border-radius: 20px;
+
+}
+}
