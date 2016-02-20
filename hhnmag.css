@@ -1086,7 +1086,23 @@ section.publication-subscribe + hr {
 .himss .himss-CTA{
     display: none;
 }
+
 @media (min-width:667px){
+    .himss-leftCol{
+        float: left;
+    width: 95%;
+    background-color: green;
+    }
+    .himss-rightCol{
+        float: right;
+    margin-right: -100%;
+    width: 95%;
+    background-color: blue;
+    }
+    .himss-rightCol, .himss-leftCol{
+        padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    }
     .himss a {
         vertical-align: top;
         text-align: center;
@@ -1097,11 +1113,13 @@ section.publication-subscribe + hr {
     .himss a:nth-child(-n+3){
         margin-top: 0;   
     }
-/*     .row{
-        display:table-row;
-        padding:10px;
+    .himss-row{
+        padding-right: 50%;
+    overflow: hidden;
+  background: red;
+  position:relative;
 
-    } */
+    }
     .himss .himss-CTA{
     display: inline-block;
     position: relative;
@@ -1110,5 +1128,4 @@ section.publication-subscribe + hr {
     padding: 5px 25px;
     border-radius: 20px;
 
-}
 }
