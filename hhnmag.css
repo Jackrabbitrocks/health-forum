@@ -1067,6 +1067,11 @@ section.publication-subscribe + hr {
     border-bottom: #EE8B00 5px solid;
 }
 
+.himss-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .himss a.himss-cil--box {
     background-color: #00529A;
     color: #fff;
