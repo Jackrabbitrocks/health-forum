@@ -1030,7 +1030,7 @@ section.publication-subscribe + hr {
 }
 
 .himss a img{
-    max-width: 60px;
+    max-width: 80px;
     float: left;
     margin-right: 10px;
 }
@@ -1050,7 +1050,7 @@ section.publication-subscribe + hr {
     border-bottom: #EEB500 5px solid;
 }
 
-.himss a.himss-instagram--box div{
+.himss a.himss-instagram--box div, .himss a.himss-subscribe--box div{
     color: #000;
 }
 
@@ -1062,18 +1062,22 @@ section.publication-subscribe + hr {
 }
 
 .himss a.himss-subscribe--box {
+    background-color: #EEB500;
+    border: #EE8B00 5px solid;
+    border-bottom: #EE8B00 5px solid;
+}
+
+.himss a.himss-cil--box {
     background-color: #00529A;
     color: #fff;
     border: #0601A6 5px solid;
     border-bottom: #0601A6 5px solid;
 }
 
-.himss a.himss-cil--box {
-    background-color: #EEB500;
-    border: #EE8B00 5px solid;
-    border-bottom: #EE8B00 5px solid;
-}
-
 .himss a:nth-child(n+3) {
     margin-top: 10px;
+}
+
+.himss .himss-CTA{
+    display: none;
 }
