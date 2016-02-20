@@ -1013,6 +1013,7 @@ section.publication-subscribe + hr {
     display: none;
 }
 @media (min-width: 667px) {
+
     .himss-leftCol {
         float: left;
         width: 95%;
@@ -1055,7 +1056,8 @@ section.publication-subscribe + hr {
         margin-left: -5%;
     }
     .himss-rightCol .himss-CTA {
-        border-color: white;
+        border-color: #fff;
+        color:#fff;
     }
     .himss-leftCol .himss-CTA {
         color: #000;
