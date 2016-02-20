@@ -1069,7 +1069,8 @@ section.publication-subscribe + hr {
         padding-bottom: 60px;
     }
 }
-/* instagram page */
+
+    /* instagram page */
 .insta h3{
     font-size: 1.5rem;
     background-color: #00529B;
@@ -1079,15 +1080,13 @@ section.publication-subscribe + hr {
 border-radius: 10px 0 0 0;
 margin-bottom: 15px
 }
-
-.insta img:first-child{
+    .insta img:first-child{
     margin-bottom: 20px;
 }
-.insta .profile img{
-    float: left;
-    border-radius: 15px;
-    margin-right: 15px
+.insta .profile img, .insta .twitter,.insta .instagram, img.esource{
+    display: none;
 }
+
 .insta .insta-row:after{
     content: "";
     display:table;
@@ -1096,9 +1095,7 @@ margin-bottom: 15px
 .insta-row{
     margin: 20px 0
 }
-.insta .content{
-    padding: 0 30px;
-}
+
 .insta .blue {
     font-weight: bold;
     font-size: 1.5rem;
@@ -1109,12 +1106,101 @@ margin-bottom: 15px
     font-weight: bold;
     color: #00A1E1;
 }
-.insta .twitter{
-    float: right;
+
+.esource .lt-blue {
+    font-size: 1.2rem;
 }
-.insta .instagram{
+
+section.insta-row.tag-line h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00529B;
+}
+
+/* MEDIA QUERY START */
+
+@media (min-width: 667px) {
+
+.insta .profile img{
     float: left;
+    border-radius: 15px;
+    margin-right: 15px;
+    display: block;
+}
+ .insta .twitter,.insta .instagram{
+     display: block;
+ }
+.insta .content{
+    padding: 0 30px;
 }
 .insta .conversation{
     text-align: center;
+}
+.insta .conversation img{
+    max-width: 100px;
+}
+img.esource {
+    float: left;
+    margin: 0 15px 0 0;
+    display: block;
+}
+.esource .copy{
+    overflow: hidden;
+}
+/* himss start */
+    .himss-leftCol {
+        float: left;
+        width: 95%;
+    }
+    .himss-rightCol {
+        float: right;
+        margin-right: -100%;
+        width: 95%;
+    }
+    .himss-rightCol,
+    .himss-leftCol {
+        padding-bottom: 99999px;
+        margin-bottom: -99999px;
+    }
+    .himss a {
+        vertical-align: top;
+        width: 98%;
+        margin-top: 10px;
+    }
+    .himss a img {
+        margin-right: 20px
+    }
+    .himss a:nth-child(-n+3) {
+        margin-top: 0;
+    }
+    .himss-row {
+        padding-right: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+    .himss-row:last-child {
+        margin-top: 10px;
+    }
+    .himss .himss-CTA {
+        display: inline-block;
+        border: black 2px solid;
+        border-radius: 20px;
+        position: absolute;
+        bottom: 15px;
+        padding: 5px 20px;
+        margin-left: -5%;
+    }
+    .himss-rightCol .himss-CTA {
+        border-color: #fff;
+        color:#fff;
+    }
+    .himss-leftCol .himss-CTA {
+        color: #000;
+    }
+    /* this is to hack the cta button */
+    
+    .himss a > div {
+        padding-bottom: 60px;
+    }
 }
