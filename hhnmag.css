@@ -1091,13 +1091,11 @@ section.publication-subscribe + hr {
     .himss-leftCol{
         float: left;
     width: 95%;
-    background-color: green;
     }
     .himss-rightCol{
         float: right;
     margin-right: -100%;
     width: 95%;
-    background-color: blue;
     }
     .himss-rightCol, .himss-leftCol{
         padding-bottom: 99999px;
@@ -1105,9 +1103,7 @@ section.publication-subscribe + hr {
     }
     .himss a {
         vertical-align: top;
-        text-align: center;
-        display: table-cell;
-        width: 50%;
+        width: 98%;
     }
 
     .himss a:nth-child(-n+3){
@@ -1116,9 +1112,11 @@ section.publication-subscribe + hr {
     .himss-row{
         padding-right: 50%;
     overflow: hidden;
-  background: red;
   position:relative;
 
+    }
+    .himss-row:last-child{
+        margin-top:10px;
     }
     .himss .himss-CTA{
     display: inline-block;
@@ -1127,5 +1125,7 @@ section.publication-subscribe + hr {
     border: black 2px solid;
     padding: 5px 25px;
     border-radius: 20px;
+
+}
 
 }
