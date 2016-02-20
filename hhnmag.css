@@ -1105,6 +1105,9 @@ section.publication-subscribe + hr {
         vertical-align: top;
         width: 98%;
     }
+    .himss a img{
+        margin-right:20px
+    }
 
     .himss a:nth-child(-n+3){
         margin-top: 0;   
@@ -1120,12 +1123,23 @@ section.publication-subscribe + hr {
     }
     .himss .himss-CTA{
     display: inline-block;
-    position: relative;
-    bottom: 10px;
     border: black 2px solid;
-    padding: 5px 25px;
     border-radius: 20px;
+    position:absolute;
+  bottom:15px;
+  padding: 5px 20px;
+  margin-left:-5%;
 
+}
+.himss-rightCol .himss-CTA{
+        border-color: white;
+    }
+    .himss-leftCol .himss-CTA{
+        color: #000;
+    }
+/* this is to hack the cta button */
+.himss a > div{
+    padding-bottom: 60px;
 }
 
 }
