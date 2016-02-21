@@ -784,105 +784,105 @@ a {
     font-size: .8rem;
     width: 45%;
     display: inline-block;
-}*/
+    }*/
 
-.mw-pastwinners:nth-child(even) {
-    background-color: #f0f0f0;
-}
-.mw-pastwinners {
-    padding: 15px;
-    margin: 10px 0;
-}
-.mw-pastwinners a {
-    color: #008BBF;
-}
-.mw-pastwinners_container {
-    position: relative;
-}
-.mw-pastwinners_container img {
-    float: left;
-    margin-right: 10px;
-    width: 129px;
-    height: 170px;
-}
-.mw-pastwinners ul {
-    margin: 0;
-}
-/*INNOVATOR AWARD*/
+    .mw-pastwinners:nth-child(even) {
+        background-color: #f0f0f0;
+    }
+    .mw-pastwinners {
+        padding: 15px;
+        margin: 10px 0;
+    }
+    .mw-pastwinners a {
+        color: #008BBF;
+    }
+    .mw-pastwinners_container {
+        position: relative;
+    }
+    .mw-pastwinners_container img {
+        float: left;
+        margin-right: 10px;
+        width: 129px;
+        height: 170px;
+    }
+    .mw-pastwinners ul {
+        margin: 0;
+    }
+    /*INNOVATOR AWARD*/
 
-.mw-innovator_links-header-container {
-    position: absolute;
-    top: -15px;
-    left: 0;
-    right: 0;
-}
-.mw-innovator_links-header {
-    border: #eaeaea solid 2px;
-    padding: 4px 5px;
-    border-radius: 5px;
-    background-color: #fafafa;
-}
-.alert {
-    color: red;
-    padding: 10px;
-    border: red solid 1px;
-    display: inline-block;
-    border-radius: 10px;
-    margin-bottom: 10px;
-}
-/*CAROSEL*/
+    .mw-innovator_links-header-container {
+        position: absolute;
+        top: -15px;
+        left: 0;
+        right: 0;
+    }
+    .mw-innovator_links-header {
+        border: #eaeaea solid 2px;
+        padding: 4px 5px;
+        border-radius: 5px;
+        background-color: #fafafa;
+    }
+    .alert {
+        color: red;
+        padding: 10px;
+        border: red solid 1px;
+        display: inline-block;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    /*CAROSEL*/
 
-.mw-carosel div {
-    position: absolute;
-    width: 100%;
-    display: none;
-}
-.mw-carosel .start {
-    display: inline-block;
-}
-/*BAND AID THE RIGHT RAIL*/
+    .mw-carosel div {
+        position: absolute;
+        width: 100%;
+        display: none;
+    }
+    .mw-carosel .start {
+        display: inline-block;
+    }
+    /*BAND AID THE RIGHT RAIL*/
 
-.social-media-rightrail .editorial-content__image {
-    float: right;
-    width: 35%;
-}
-.RR-social--rule {
-    margin: 20px 0;
-}
-.home-cta-1 .editorial-content__title {
-    font-weight: bold;
-}
-section.editorial-content.home-cta-1 + hr,
-section.editorial-content.home-cta-1 + hr + hr {
-    display: none;
-}
-section.publication-subscribe {
-    display: none;
-}
-.editorial-content__details:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-.social-media-rightrail .editorial-content__body a {
-    color: #0D589B;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-    display: inline-block;
-    padding-bottom: 3px;
-}
-.social-media-rightrail a.right-rail--subscribe-button {
-    border-bottom: 0;
-}
-.social-media-rightrail a.right-rail--subscribe-button {
-    padding: 10px 30px;
-    background-color: #EF4D03;
-    border-radius: 10px;
-    display: inline-block;
-    color: #fafafa;
-    font-weight: bold;
-}
+    .social-media-rightrail .editorial-content__image {
+        float: right;
+        width: 35%;
+    }
+    .RR-social--rule {
+        margin: 20px 0;
+    }
+    .home-cta-1 .editorial-content__title {
+        font-weight: bold;
+    }
+    section.editorial-content.home-cta-1 + hr,
+    section.editorial-content.home-cta-1 + hr + hr {
+        display: none;
+    }
+    section.publication-subscribe {
+        display: none;
+    }
+    .editorial-content__details:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .social-media-rightrail .editorial-content__body a {
+        color: #0D589B;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+        display: inline-block;
+        padding-bottom: 3px;
+    }
+    .social-media-rightrail a.right-rail--subscribe-button {
+        border-bottom: 0;
+    }
+    .social-media-rightrail a.right-rail--subscribe-button {
+        padding: 10px 30px;
+        background-color: #EF4D03;
+        border-radius: 10px;
+        display: inline-block;
+        color: #fafafa;
+        font-weight: bold;
+    }
 // this is just because I don'tknow how to turn off a right rail element
 section.publication-subscribe {
     display: none;
@@ -958,6 +958,7 @@ section.publication-subscribe + hr {
     vertical-align: top;
     text-align: center;
     display: block;
+    margin-top: 10px;
 }
 .himss a div {
     color: #fff;
@@ -1012,75 +1013,18 @@ section.publication-subscribe + hr {
 .himss .himss-CTA {
     display: none;
 }
-@media (min-width: 667px) {
 
-    .himss-leftCol {
-        float: left;
-        width: 95%;
-    }
-    .himss-rightCol {
-        float: right;
-        margin-right: -100%;
-        width: 95%;
-    }
-    .himss-rightCol,
-    .himss-leftCol {
-        padding-bottom: 99999px;
-        margin-bottom: -99999px;
-    }
-    .himss a {
-        vertical-align: top;
-        width: 98%;
-        margin-top: 10px;
-    }
-    .himss a img {
-        margin-right: 20px
-    }
-    .himss a:nth-child(-n+3) {
-        margin-top: 0;
-    }
-    .himss-row {
-        padding-right: 50%;
-        overflow: hidden;
-        position: relative;
-    }
-    .himss-row:last-child {
-        margin-top: 10px;
-    }
-    .himss .himss-CTA {
-        display: inline-block;
-        border: black 2px solid;
-        border-radius: 20px;
-        position: absolute;
-        bottom: 15px;
-        padding: 5px 20px;
-        margin-left: -5%;
-    }
-    .himss-rightCol .himss-CTA {
-        border-color: #fff;
-        color:#fff;
-    }
-    .himss-leftCol .himss-CTA {
-        color: #000;
-    }
-    /* this is to hack the cta button */
-    
-    .himss a > div {
-        padding-bottom: 60px;
-    }
-}
-
-    /* instagram page */
+/* instagram page */
 .insta h3{
     font-size: 1.5rem;
     background-color: #00529B;
     padding: 10px;
     color: #fff;
--webkit-border-radius: 10px 0 0 0;
-border-radius: 10px 0 0 0;
-margin-bottom: 15px
+    -webkit-border-radius: 10px 0 0 0;
+    border-radius: 10px 0 0 0;
+    margin-bottom: 15px
 }
-    .insta img:first-child{
+.insta img:first-child{
     margin-bottom: 20px;
 }
 .insta .profile img, .insta .twitter,.insta .instagram, img.esource{
@@ -1118,20 +1062,68 @@ section.insta-row.tag-line h2 {
     color: #00529B;
 }
 
+.esource .lt-blue span {
+    display: block;
+}
+
+.esource .content .lt-blue:nth-child(even) {
+    background: #dfdfdf;
+}
+
+.esource .lt-blue {
+    padding: 10px;
+}
+
+.insta-CTA{
+    text-align: center;
+}
+
+.insta-CTA hr {
+    width: 40%;
+}
+
+.insta-CTA .blue {
+    font-size: 3rem;
+    line-height: 1;
+    padding-top: 20px;
+}
+
+.insta-CTA .lt-blue{
+    overflow: hidden;
+}
+
 /* MEDIA QUERY START */
 
 @media (min-width: 667px) {
-
-.insta .profile img{
-    float: left;
-    border-radius: 15px;
-    margin-right: 15px;
-    display: block;
+    .insta-CTA{
+        text-align: left;
 }
- .insta .twitter,.insta .instagram{
-     display: block;
- }
-.insta .content{
+
+    .insta .insta-CTA img {
+    float: left;
+    margin-right: 20px;
+}
+
+    .esource .lt-blue span {
+        display: inline;
+    }
+
+    .insta .profile img{
+        float: left;
+        border-radius: 15px;
+        margin-right: 15px;
+        display: block;
+    }
+    .insta .twitter,.insta .instagram{
+       display: inline-block;
+   }
+   .insta .twitter{
+       float: right;
+   }
+   .insta .instagram{
+       float:left;
+   }
+   .insta .content{
     padding: 0 30px;
 }
 .insta .conversation{
@@ -1149,58 +1141,58 @@ img.esource {
     overflow: hidden;
 }
 /* himss start */
-    .himss-leftCol {
-        float: left;
-        width: 95%;
-    }
-    .himss-rightCol {
-        float: right;
-        margin-right: -100%;
-        width: 95%;
-    }
-    .himss-rightCol,
-    .himss-leftCol {
-        padding-bottom: 99999px;
-        margin-bottom: -99999px;
-    }
-    .himss a {
-        vertical-align: top;
-        width: 98%;
-        margin-top: 10px;
-    }
-    .himss a img {
-        margin-right: 20px
-    }
-    .himss a:nth-child(-n+3) {
-        margin-top: 0;
-    }
-    .himss-row {
-        padding-right: 50%;
-        overflow: hidden;
-        position: relative;
-    }
-    .himss-row:last-child {
-        margin-top: 10px;
-    }
-    .himss .himss-CTA {
-        display: inline-block;
-        border: black 2px solid;
-        border-radius: 20px;
-        position: absolute;
-        bottom: 15px;
-        padding: 5px 20px;
-        margin-left: -5%;
-    }
-    .himss-rightCol .himss-CTA {
-        border-color: #fff;
-        color:#fff;
-    }
-    .himss-leftCol .himss-CTA {
-        color: #000;
-    }
-    /* this is to hack the cta button */
-    
-    .himss a > div {
-        padding-bottom: 60px;
-    }
+.himss-leftCol {
+    float: left;
+    width: 95%;
+}
+.himss-rightCol {
+    float: right;
+    margin-right: -100%;
+    width: 95%;
+}
+.himss-rightCol,
+.himss-leftCol {
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+}
+.himss a {
+    vertical-align: top;
+    width: 98%;
+    margin-top: 10px;
+}
+.himss a img {
+    margin-right: 20px
+}
+.himss a:nth-child(-n+3) {
+    margin-top: 0;
+}
+.himss-row {
+    padding-right: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.himss-row:last-child {
+    margin-top: 10px;
+}
+.himss .himss-CTA {
+    display: inline-block;
+    border: black 2px solid;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 15px;
+    padding: 5px 20px;
+    margin-left: -5%;
+}
+.himss-rightCol .himss-CTA {
+    border-color: #fff;
+    color:#fff;
+}
+.himss-leftCol .himss-CTA {
+    color: #000;
+}
+/* this is to hack the cta button */
+
+.himss a > div {
+    padding-bottom: 60px;
+}
 }
