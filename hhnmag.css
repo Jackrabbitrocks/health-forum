@@ -1000,6 +1000,7 @@ section.publication-subscribe + hr {
 .himss-title {
     text-transform: uppercase;
     font-weight: bold;
+    display: block;
 }
 .himss a.himss-cil--box {
     background-color: #00529A;
@@ -1095,6 +1096,11 @@ section.insta-row.tag-line h2 {
 /* MEDIA QUERY START */
 
 @media (min-width: 667px) {
+    .insta-CTA .insta-row {
+    padding-left: 20%;
+    padding-right: 20px;
+}
+
     .insta-CTA{
         text-align: left;
 }
@@ -1126,7 +1132,7 @@ section.insta-row.tag-line h2 {
    .insta .content{
     padding: 0 30px;
 }
-.insta .conversation{
+.insta .conversation .content{
     text-align: center;
 }
 .insta .conversation img{
