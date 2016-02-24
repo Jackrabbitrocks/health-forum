@@ -1000,6 +1000,7 @@ section.publication-subscribe + hr {
 .himss-title {
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1.2rem;
     display: block;
 }
 .himss a.himss-cil--box {
