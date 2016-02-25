@@ -326,8 +326,6 @@ p {
 }
 .LA-offer-image {
   margin: 10px auto 0;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
   opacity: 0.8;
 }
 .LA-best-offer .LA-offer-badge {
@@ -348,7 +346,7 @@ p {
 .LA-offer-title {
   background: #dcdbdb;
   color: #666666;
-  min-height: 60px;
+  min-height: 100px;
   padding: 10px;
    -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -431,8 +429,6 @@ p {
 }
 .selected .LA-offer-image {
   margin: 10px auto 0;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
   opacity: 1;
 }
 .LA-offer-tab {

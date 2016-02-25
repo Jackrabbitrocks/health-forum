@@ -40,11 +40,28 @@ MostWired.mwCarosel();
 
 if ($(".LA-offer-module").length > 0){
   var $offerModule = $(".LA-offer-module");
+
   $offerModule.on('mouseover', function(e){
-    $offerModule.removeClass('active');
-    $(this).addClass('active');
+    $offerModule.removeClass('active').find('.LA-offer-image').attr('src', '/ext/resources/inc-hhn/img/misc/devicesBW.png');
+    $(this).addClass('active').find('.LA-offer-image').attr('src', '/ext/resources/inc-hhn/img/misc/devicesColor.png');
   });
+
   $offerModule.on('click', function(){
-    window.open("http://eforms.kmpsgroup.com/jointforms/Forms/Subscription.aspx?pubcode=HHN&promoCode=15HHNWEB")
+    $currentModule = $(this).data('product');
+    switch ($currentModule){
+      case 'access':
+      targetURL = "http://eforms.kmpsgroup.com/jointforms/Forms/Subscription.aspx?pubcode=HHN&promoCode=15HHNWEB";
+      break;
+      case 'daily':
+      targetURL = "http://eforms.kmpsgroup.com/jointforms/Forms/Subscription.aspx?pubcode=HFENL&step=form";
+      break;
+      case 'hf':
+      targetURL = "http://www.hfmmagazine.com/Subscriber/access.dhtml";
+      break;
+      case 'trustee':
+      targetURL = "http://eforms.kmpsgroup.com/jointforms/Forms/Subscription.aspx?pubcode=TRU&promoCode=15TRUWEB";
+      break;
+    }
+    window.open(targetURL);
   });
 };
