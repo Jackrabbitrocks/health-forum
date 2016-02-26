@@ -306,7 +306,7 @@ p {
   float: left;
   text-align: center;
   padding: 0 0 20px;
-  min-height: 105px;
+  min-height: 100px;
   margin-top: 20px;
   position: relative;
   border: gainsboro thin solid;
@@ -1132,6 +1132,12 @@ ul.LA-cc-holder li.discover {
   width: 100%;
 }
 @media (min-width: 840px) {
+  .LA-other-magazines .LA-offer-title h4{
+    margin-top: 10px;
+  }
+  .LA-offer-module.LA-other-magazines {
+    padding: 0;
+}
   .LA-module {
     width: 800px;
   }
